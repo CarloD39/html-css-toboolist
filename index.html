@@ -10,47 +10,82 @@
 <body>
     <header>
        <img class="im" src="img/Logo.png" alt="logo picture">
-       <h1 class="logo title">Toboolist</h1>
+       <h1 class="logo-title">Toboolist</h1>
     </header>
 
-<!--main box  -->
+<!-- main  -->
     <main>
+<!--buttons div  -->
         <div class="actions">
             <button class="first bu">Add Task</button>
             <button class="second bu">Add Section</button>
         </div>
 
         <div class="box">
-            
+<!-- New section -->
             <div class="task">
-                <h2>&#9759; New Task</h2>
+                <h2><span class="arrow">&#9660;</span>New Task</h2>
                 <ul>
-                    <li>Quarterly Newsletter<div class="tagg editor">Editorial</div></li>
+                    <li>
+                        <span class="item confirmed">&check;</span>
+                        <span>Quarterly Newsletter</span>
+                        <div class="tagg editor">Editorial</div>
+                    </li>
                 </ul>    
             </div>
 
+<!-- Today section -->
             <div class="group today">
-                <h2>&#9759; Today </h2>
+                <h2><span class="arrow">&#9660;</span>Today</h2>
                 <ul>
-                    <li>Recruiting blog post<div class="tagg editor">Editorial</div></li>
-                    <li>Mobile app luaunch <div class="tagg goals">Q1 Goals</div></li>
-                    <li>Interview John H.<div class="tagg recruiting">Recruiting</div></li>
-                    <li>Summit update to mobile storefronts <div class="tagg mobile">Mobile</div></li>
+                    <li>
+                        <span class="item confirmed">&check;</span>
+                        <span>Recruiting blog post</span> 
+                        <div class="tagg editor">Editorial</div>
+                    </li>
+                    <li>
+                        <span class="item confirmed">&check;</span>
+                        <span>Mobile app luaunch </span> 
+                        <div class="tagg goals">Q1 Goals</div>
+                    </li>
+                    <li>
+                        <span class="item deleted">&#10007;</span>
+                        <span>Interview John H.</span> Interview John H.
+                        <div class="tagg recruiting">Recruiting</div>
+                    </li>
+                    <li>
+                        <span class="item confirmed">&check;</span>
+                        <span>Summit update to mobile storefronts </span> 
+                        <div class="tagg mobile">Mobile</div>
+                    </li>
                 </ul>    
             </div>
 
+<!-- Upcoming section -->
             <div class="group upcoming">
-                <h2>&#9759; Upcoming </h2>
+                <h2><span class="arrow">&#9660;</span>Upcoming</h2>
                 <ul>
-                    <li>Schedule meeting with Alex</li>
-                    <li>Homepage refresh <div class="tagg website">Website</div></li>
-                    <li>Onboard new Sales team members<div class="tagg sales">Sales</div></li>
-                    <li>Review editorial calendar<div class="tagg editor">Editorial</div></li>
+                    <li>
+                        <span class="item deleted">&#10007;</span>
+                        <span>Schedule meeting with Alex</span> 
+                    </li>
+                    <li>
+                        <span class="item confirmed">&check;</span>
+                        <span>Homepage refresh </span> 
+                        <div class="tagg website">Website</div>
+                    </li>
+                    <li>
+                        <span class="item confirmed">&check;</span>
+                        <span>Onboard new Sales team members</span> 
+                        <div class="tagg sales">Sales</div>
+                    </li>
+                    <li>
+                        <span class="item confirmed">&check;</span>
+                        <span>Review editorial calendar</span> 
+                        <div class="tagg editor">Editorial</div>
+                    </li>
                 </ul>    
             </div>
-
-            
-
         </div>
 
     </main>
